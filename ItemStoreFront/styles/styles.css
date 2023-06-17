@@ -114,6 +114,11 @@ a:hover{
     text-decoration: underline;
 }
 
+.social-icons a:hover {
+    text-decoration: none;
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.8));
+}
+
 @media (min-width: 775px) {
     * {
         grid-template-columns: 1fr;
