@@ -32,11 +32,6 @@
     margin: 1rem 1rem;
 }
 
-@media (min-width: 550px) {
-    .hero-container {
-        width: auto;
-    }
-}
 
 .hero-body {
     width: 50%;
@@ -122,8 +117,25 @@ a:hover{
     filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.8));
 }
 
+@media (max-width: 1000px) {
+    .add-cart {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .width-100 {
+        width: 100%;
+    }
+}
+
 @media (min-width: 775px) {
     * {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 550px) {
+    .hero-container {
+        width: auto;
     }
 }
